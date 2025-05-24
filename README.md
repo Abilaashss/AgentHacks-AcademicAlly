@@ -1,6 +1,6 @@
-# Paper Pulse
+# AcademicAlly
 
-Paper Pulse is an AI-powered research paper analysis tool designed to help researchers efficiently extract insights from academic papers. Using advanced NLP techniques and the Llama 3 language model, Paper Pulse automates literature review by summarizing papers, extracting key trends, and analyzing research gaps.
+AcademicAlly is an AI-powered research paper analysis tool designed to help researchers efficiently extract insights from academic papers. Using advanced NLP techniques and the Llama 3 language model, AcademicAlly automates literature review and generates novel hypothesis by summarizing papers, extracting key trends, and analyzing research gaps.
 
 ## Features
 
@@ -9,6 +9,7 @@ Paper Pulse is an AI-powered research paper analysis tool designed to help resea
 - **Trend Analysis**: Identify emerging trends, methodologies, and research directions
 - **Gap Analysis**: Discover unexplored areas and future research opportunities
 - **User-friendly Interface**: Modern, clean UI inspired by perplexity.ai
+- **Hypothesis-Buddy**: Use your buddy to ideate a novel hypothesis based on existing research
 
 ## Tech Stack
 
@@ -68,10 +69,11 @@ npm start
 2. **View Paper Details**: Click on a paper card to view its detailed information
 3. **Generate a Summary**: On the paper details page, click "Generate Summary"
 4. **Analyze Trends/Gaps**: On the Analysis page, select papers, define your research topic, and run the analysis
+5. **Novel Hypothesis**: On the Hypothesis page, select papers, define your research topic, and run the Hypothesis 
 
 ## Architecture
 
-Paper Pulse follows a client-server architecture:
+AcademicAlly follows a client-server architecture:
 
 - **Frontend**: React-based web UI with a design inspired by perplexity.ai
 - **Backend**: Express.js API server that interfaces with external paper sources and the AI model
@@ -84,6 +86,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Paper Pulse uses the Llama 3 8B model from Meta
 - Search functionality powered by arXiv and Semantic Scholar APIs
 - UI design inspired by perplexity.ai 
