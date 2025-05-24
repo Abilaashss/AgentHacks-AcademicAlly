@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-perplexity-darkbg text-perplexity-darktext;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md transition-colors duration-200;
+  }
+  .btn-primary {
+    @apply bg-perplexity-darkaccent text-white hover:bg-blue-600;
+  }
+  .card {
+    @apply bg-perplexity-darkcard p-6 rounded-lg border border-perplexity-darkborder;
+  }
+  .input {
+    @apply w-full p-3 bg-perplexity-darkcard border border-perplexity-darkborder rounded-lg focus:outline-none focus:ring-2 focus:ring-perplexity-darkaccent focus:border-transparent text-perplexity-darktext;
+  }
+}
